@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+@media all and (max-width:767px) {
+   .main ul{
+    z-index: 100;
+    display: inline-block;
+    width: 60%;
+    position: fixed;
+    height: 100vh;
+    top: 0%;
+    right: -100%;
+    /* background-color: black; */
+    padding: 5%;
+   }
+   .main li{
+    border-bottom: 1px solid #FFFFFF;
+    margin: 30px 0px;
+    font-size: 18px;
+    padding: 10px;
+   }
+   .fa-xmark{
+    position: absolute;
+    top: 0;
+    right: 1%;
+   }
+}
